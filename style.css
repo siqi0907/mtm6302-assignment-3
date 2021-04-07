@@ -1,0 +1,55 @@
+.user_control{
+    display: flex;
+    padding: 20px;
+}
+.user_control span{
+    display: inline-block;
+    width: 200px;
+    flex: 1;
+    text-align: center;
+    line-height: 38px;
+}
+.input-group{
+    display: flex;
+    flex: 1;
+}
+.input-group > .form-control, .input-group > .form-control-plaintext, .input-group > .custom-select, .input-group > .custom-file {
+   
+    width: 100%;
+}
+.list-group-item{
+    display: flex;
+    justify-content: space-between;
+}
+span.title{
+    color: red;
+    font-size: 1.2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.btn-right{
+    float: right;
+}
+.changeTime{
+    display: none;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: rgba(10, 10, 10, .5);
+}
+.changeTime button{
+    margin: auto;
+    width: 200px;
+}
+.changeTime .input-group{
+    margin: auto;
+    width: 300px !important;
+    margin-top: 200px !important;
+}
+li{
+    display: flex;
+}
+li span{
+    flex: 1;
+}
